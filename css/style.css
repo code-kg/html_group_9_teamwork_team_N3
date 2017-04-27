@@ -1,12 +1,109 @@
 body {
     font-family: 'arial', sans-serif;
     color: #000;
-    background: #ffffff;
+    background: #f9f9fb;
     font-size: 13px;
     line-height: 1.3;
 }
 .container {
     min-width: 320px;
-    max-width: 1170px;
+    max-width: 1560px;
     margin: 0 auto;
+}
+.content {
+    margin: 100px 0;
+}
+.item {
+    width: 360px;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 20px;
+}
+.content .six, .eleven{
+    background-color: #212429;
+}
+.six.item-content p {
+    color: #ffffff;
+}
+.item img {
+    width: 100%;
+}
+.fa-pencil, .fa-quote-left, .fa-film, .fa-link, .fa-windows, .fa-music {
+    position: absolute;
+    top: -25px;
+    right: 50%;
+    margin: 0 -25px 0;
+    padding: 10px 12px;
+}
+.fa-picture-o {
+    position: absolute;
+    margin: 0 -25px 0;
+    padding: 10px 12px;
+    top: 230px;
+}
+.fa-pencil,.fa-film, .fa-music, .fa-picture-o {
+    background-color: black;
+    color: #ffffff;
+    right: 50%;
+}
+.fa-quote-left, .fa-link, .fa-windows {
+    background-color: #ffffff;
+    color: black;
+}
+.item-content {
+    text-align: center;
+    padding: 55px 0 37px 0;
+}
+.item-content h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.item-content span, .social-icons span{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+}
+.item-content p {
+    color: #464646;
+    font-size: 15px;
+    line-height: 2;
+}
+.social-icons {
+    border-top: 1px solid #f7f7f7;
+    padding: 23px 0;
+}
+.social-icons i {
+    padding: 0 10px 0 0;
+}
+.social-icons .fa-comments-o {
+    padding-left: 28px;
+}
+.social-icons a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    margin: 0 20px 0 0;
+}
+.read-more {
+    margin: 0 0 0 0;
+    text-align: center;
+}
+.read-more a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #212121;
+    font-size: 14px;
+    padding: 10px 13px;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+}
+.read-more {
+    margin: 0 0 64px 0;
+}
+.eleven a {
+    display: block;
+    padding: 65px 30px;
+    color: #ffffff;
+    font-size: 17px;
+    text-align: center;
 }
