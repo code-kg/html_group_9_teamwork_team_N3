@@ -4,11 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html_group_9_teamwork_team_N3</title>
+    <link href="https://fonts.googleapis.com/css?family=Hind:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
+	<header>
+		<div class="container clearfix">
+			<div class="menu-btn" id="menu-btn"><span></span></div>
+			<div class="menu">
+				<ul>
+					<li><a href="#">Menu option 1</a></li>
+					<li><a href="#">Menu option 2</a></li>
+					<li><a href="#">Menu option 3</a></li>
+					<li><a href="#">Menu option 4</a></li>
+				</ul>
+			</div>
+			<a href="#" class="logo"><img src="img/logo.png" alt="Logo"></a>
+			<ul class="top-nav">
+				<li><a href="#" class="fa fa-rss" aria-hidden="true"></a></li>
+				<li><a href="#" class="fa fa-twitter" aria-hidden="true"></a></li>
+				<li><a href="#" class="fa fa-google-plus" aria-hidden="true"></a></li>
+				<li><a href="#" class="fa fa-facebook" aria-hidden="true"></a></li>
+				<li><a href="#" class="fa fa-search" aria-hidden="true"></a></li>
+			</ul>
+			<div class="slider">
+				<div class="carousel-block">
+					<div class="slide fade">
+						<img src="upload/slide-1.jpg" alt="Slide 1">
+						<div class="caption">Latest News <h3>bodybuilding best for your health</h3></div>
+					</div>
+					<div class="slide fade">
+						<img src="upload/slide-2.jpg" alt="Slide 2">
+						<div class="caption">New markdowns<h3>seasonal sale of sport outfit</h3></div>
+					</div>
+					<div class="slide fade">
+						<img src="upload/slide-3.jpg" alt="Slide 3">
+						<div class="caption">Popular Article<h3>A little bit of doping won't harm you</h3></div>
+					</div>
+					<div class="controls">
+						<ul class="dots">
+							<li class="dot" onclick="currentSlide(1)"></li>
+							<li class="dot" onclick="currentSlide(2)"></li>
+							<li class="dot" onclick="currentSlide(3)"></li>
+						</ul>
+						<a class="prev" onclick="turnSlide(-1)"></a>
+						featured article
+						<a class="next" aria-hidden="true" onclick="turnSlide(1)"></a>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</header>
+<script src="vendor/jquery/jquery-3.2.0.min.js"></script>
+<script>
+//main slider
+var slideIndex = 0;
+var slides = document.getElementsByClassName('slide');
+var dots = document.getElementsByClassName('dot');
 
+function turnSlide(n) {
+    showSlide(slideIndex = slideIndex + n);
+}
+
+showSlide(slideIndex);
+function showSlide(n) {
+    var x;
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (x = 0; x < slides.length; x++) {
+        slides[x].style.display = 'none';
+    }
+	for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(' current', '');
+    }
+    slides[slideIndex-1].style.display = 'block';
+    dots[slideIndex-1].className += ' current';
+}
+
+//autorun for slider
+autoPlaySlide(); 
+function autoPlaySlide() {
+    var slides = document.getElementsByClassName('slide');
+    for (x = 0; x < slides.length; x++) {
+        slides[x].style.display = 'none'; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(' current', '');
+    }
+    slides[slideIndex-1].style.display = 'block'; 
+    dots[slideIndex-1].className += ' current';
+    setTimeout(autoPlaySlide, 3000); 
+}
+
+//hide/show menu
+$(document).ready(function(){
+	$('#menu-btn').click(function(){		
+			$('.menu').slideToggle(700);	
+		});
+});
+</script>
 </body>
 </html>
