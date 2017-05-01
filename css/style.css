@@ -1,5 +1,5 @@
 body {
-    font-family: 'Hind', arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+    font-family: 'Hind', 'Montserrat', "Helvetica CY", "Nimbus Sans L", sans-serif;
     color: #000;
     background: #f9f9fb;
     font-size: 13px;
@@ -503,6 +503,52 @@ header{
     color: #51534e;
     left: 57px;
     bottom: 57px;
+}
+.latest-posts {
+    margin-bottom: 38px;
+}
+.latest-posts h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 20px;
+    border-bottom: 1px solid #f7f7f7;
+    margin: 0;
+}
+.late-post{
+    padding: 30px 0 20px;
+    border-bottom: 1px solid #f7f7f7;
+    overflow: hidden;
+}
+.late-post img{
+    float: left;
+    margin-right: 10px;
+}
+.late-post a {
+    text-decoration: none;
+    display: block;
+    height: 56px;
+}
+.late-post h5{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #212121;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+}
+.late-post p{
+    font-family: 'Hind', sans-serif;
+    text-transform: uppercase;
+    color: #a7a7a7;
+    line-height: 0.5;
+    margin: 0;
+    padding: 0;
+}
+.late-post i {
+    font-style: normal;
+    margin-left: 25px;
 }
 
 
