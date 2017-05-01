@@ -4,6 +4,11 @@ $(document).ready(function () {
             itemSelector: '.item'
         });
     });
+    $('.sidebar-slider').slick({
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 3000
+    });
 });
 
 
