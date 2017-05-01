@@ -371,3 +371,139 @@ header{
     text-align: center;
     padding: 0 0 0 0;
 }
+/*beginning of sidebar*/
+.sidebar {
+    width: 360px;
+    background-color: #ffffff;
+    padding: 40px 30px;
+}
+.side-search {
+    width: 300px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.side-search span{
+    width: 250px;
+    float: left;
+    overflow: hidden;
+}
+.side-search input{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.side-search a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    float: right;
+}
+.magnifier .fa-search{
+    color: white;
+    padding: 17px 17px;
+    font-size: 16px;
+}
+.aside-image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 39px;
+}
+.aside-image a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.aside-image a:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.side-category {
+    margin-bottom: 40px;
+}
+.side-category h4{
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #f7f7f7;
+}
+.side-category ul {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.side-category span {
+    display: block;
+    float: right;
+}
+.side-category a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #303030;
+}
+.side-category li {
+    margin: 0;
+    padding: 19px 0;
+    border-bottom: 1px solid #f7f7f7;
+}
+.side-blog{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 40px;
+}
+.blog-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+.side-blog a {
+    display: block;
+}
+.blog-layer span {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ffffff;
+    display: block;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 32px;
+    bottom: 40px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.blog-layer .layer-text {
+    font-size: 20px;
+    left: 130px;
+    border: none;
+    text-align: left;
+    width: 105px;
+    bottom: 42px;
+    text-transform: uppercase;
+}
+.blog-layer i{
+    position: absolute;
+    font-style: normal;
+    font-size: 8px;
+    text-transform: uppercase;
+    color: #51534e;
+    left: 57px;
+    bottom: 57px;
+}
+
+
+
