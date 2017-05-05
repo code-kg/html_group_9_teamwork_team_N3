@@ -9,7 +9,6 @@ body {
     min-width: 320px;
     max-width: 1530px;
     margin: 0 auto;
-    text-align: center;
 }
 ul{
     list-style: none;
@@ -23,9 +22,14 @@ h3{
     margin: 12px 0 0;
     letter-spacing: 6px;
 }
-header{
+.header{
     background: #212429;
     height: 345px;
+    position: relative;
+}
+.header2{
+    background: #212429;
+    height: 55px;
     position: relative;
 }
 .logo{
@@ -435,12 +439,14 @@ header{
 
 
 .news_block{
-    width: 1135px;
+    width: 100%;
     color: #000;
     position: relative;
 
 }
 .news_block img{
+    width: 100%;
+    height: auto;
     display: block;
 }
 .news_block::before{
@@ -784,4 +790,29 @@ header{
 }
 .join-us a {
     text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**about_me**/
+.about_me-block{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+main{
+    text-align: center;
+    width: 65%;
+}
+aside{
+    width: 30%;
 }
