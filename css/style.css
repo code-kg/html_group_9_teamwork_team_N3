@@ -461,9 +461,9 @@ h3{
     padding: 15px 0 0 0;
     position: absolute;
     text-align: center;
-    right: -4px;
+    right: 1px;
     z-index: 20;
-    top: 0;
+    top: 1px;
     width: 51px;
     height: 44px;
     color: #fff;
@@ -528,12 +528,12 @@ h3{
     font-weight: 300;
     font-size: 15px;
 }
-.box a img{
+.box a > img{
     display: inline-block;
     width: 30%;
 }
 .box > a{
-    padding: 0 0 0 0;
+    padding: 0 3px 0 0;
     font-size: 14px;
     color: #f9f9fb;
     text-decoration: none;
