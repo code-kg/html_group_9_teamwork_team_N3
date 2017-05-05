@@ -470,6 +470,7 @@ h3{
     background: #cc2127;
 }
 .news_block span{
+    text-transform: uppercase;
     display: inline-block;
     color: #999999;
     font-size: 16px;
@@ -482,6 +483,7 @@ h3{
 }
 .news_block p{
     font-size: 16px;
+    line-height: 20px;
     width: 100%;
     padding: 0 0 0 0;
     color: #464646;
@@ -820,4 +822,12 @@ main{
 }
 aside{
     width: 30%;
+}
+
+
+/**detail-page**/
+.detail-page-block{
+    padding-top: 300px;
+    display: flex;
+    justify-content: space-between;
 }
