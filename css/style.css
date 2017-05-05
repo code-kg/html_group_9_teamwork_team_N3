@@ -382,6 +382,11 @@ h3{
     text-align: center;
     padding: 55px 0 37px 0;
 }
+.item-content:hover{
+    -webkit-box-shadow: 0px 1px 30px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 30px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 30px 0px rgba(50, 50, 50, 0.75);
+}
 .item-content h3 {
     font-size: 20px;
     text-transform: uppercase;
