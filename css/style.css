@@ -39,6 +39,7 @@ h3{
     left: 50%;
     transform: translateX(-50%);
 }
+
 .menu-btn{  
     display: inline-block;
     float: left;
@@ -145,6 +146,7 @@ h3{
     position: absolute;
     top: 55px;
     overflow: hidden;
+
 }
 .carousel-block img{
     display: block;
@@ -338,6 +340,25 @@ h3{
 .content {
     margin: 100px 0;
 }
+
+/*subscribe to newsletter block named - rss*/
+
+.rss{
+    height: 100px;
+    width: 100%;
+    background-color: #f7f7f7;
+    margin: 19% 0 0 0;
+}
+.rss-parent {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+.rss-child{
+
+}
+
 .item {
     width: 360px;
     background-color: #ffffff;
