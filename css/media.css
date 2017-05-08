@@ -54,6 +54,10 @@
 	.sidebar{
 		width: 100%;
 	}
+	.author-pic img {
+		padding-left: 5px;
+	    padding-top: 30px;
+	}
 	.aside-image a:before {
 	    top: -5px;
 	    left: -35px;
