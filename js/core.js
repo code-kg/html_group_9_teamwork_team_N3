@@ -15,15 +15,8 @@ $(document).ready(function () {
         speed: 300,
         adaptiveHeight: true,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         responsive: [
-          {
-            breakpoint: 800,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
-            }
-          },
           {
             breakpoint: 800,
             settings: {

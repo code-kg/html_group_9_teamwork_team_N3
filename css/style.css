@@ -338,7 +338,7 @@ h3{
     color: #fff;
 }
 .social-box{
-    padding: 0 0 0 0;
+    padding: 0 0 1px 0;
     border: 1px solid #f1f1f3;
     margin-right: 48px;
 }
@@ -492,12 +492,10 @@ h3{
     font-size: 20px;
     padding: 9px;
 }
-.news_block h5{
-    font-size: 16px;
+.news_block h4{
+    text-align: left;
+    font-size: 20px;
     line-height: 28px;
-    font-weight: 600;
-    padding: 0 120px 0 100px;
-    color: #464646;
 }
 .news_block > p{
     font-size: 16px;
@@ -904,13 +902,18 @@ aside{
     position: relative;
 }
 .slider-item{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
     width: 30%;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+.slider-item:last-child{
+    margin-right: 0;
 }
 .slider-small .slick-prev{
     width: 40px;
     height: 40px;
-    top: -18%;
+    top: -26%;
     right: 5%;
     font-size: 0;
     z-index: 20;
@@ -920,10 +923,13 @@ aside{
     border: 2px solid #f4f4f4;
 
 }
+.news_block .fa.fa-picture-o.fa-2x{
+    margin: 120px -12px 0 0;
+}
 .slider-small .slick-next{
     width: 40px;
     height: 40px;
-    top: -18%;
+    top: -26%;
     background: #464646 url(../img/next.png) 7px 13px no-repeat;
     font-size: 0;
     border: 2px solid #f4f4f4;
@@ -931,4 +937,16 @@ aside{
     color: #a9b0b7;
     position: absolute;
 
+}
+.recomended_posts{
+    margin: 60px 0 0 0;
+    padding: 0 30px 0 29px;
+    border: 1px solid #f5f5f7;
+}
+.recomended_posts h5{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    padding: 0 120px 0 100px;
+    color: #464646;
 }

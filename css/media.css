@@ -29,7 +29,7 @@
 	.form-main {
 		margin-bottom: 10px;
 		padding: 28px 10px 28px 10px;
-	    margin-top: 65px !important;
+	    margin-top: 65px;
 	}
 	.form-main_box {
 	    width: 27%;
@@ -88,6 +88,25 @@
 	.container{
 		width: 420px;
 	}
+	.header {
+	    height: 55px;
+	}
+	.form-main {
+		padding: 28px 10px 5px 10px;
+		flex-direction: column;
+	    margin-top: 0;
+	}
+	.form-main_box {
+	    width: 100%;
+	}
+	.form-main h4 {
+	    font-size: 23px;
+	    text-align: center;
+	}
+	.form-main_button input[type="submit"] {
+	    font-size: 14px;
+	    width: 100%;
+	}
 	.about_me-block {
 	    padding-top: 10px;
 	}
@@ -100,13 +119,44 @@
 	.top-nav {
 	    display: none;
 	}
-		.side-search span {
+	.side-search span {
 	    width: 86%;
 	}
-		.news_block .fa.fa-picture-o.fa-2x{
-	    display: none;
+	.news_block .fa.fa-picture-o.fa-2x{
+    	display: none;
 	}
 	.social-block{
 		flex-direction: column;
+	}
+	.join-us {
+	    display: none;
+	}
+	.news_block h4{
+		display: none;
+	}
+	.prev-post, .next-post {
+	    height: 60px;
+	    line-height: 70px;
+	}
+	.sidebar {
+	    padding: 40px 30px 0px 30px;
+	}
+	.slider,
+	.slider-small{
+		display: none;
+	}
+	.side-blog img{
+		width: 100%;
+	}
+	.author-block{
+		margin-top: 0;
+	}
+	.author-pic{
+		display: none;
+	}
+	.name p {
+	    font-size: 12px;
+	    margin-top: 10px;
+	    padding-top: 11px;
 	}
 }
