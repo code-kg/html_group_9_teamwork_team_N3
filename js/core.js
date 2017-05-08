@@ -9,6 +9,30 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 3000
     });
+
+
+     $('.slider-small').slick({
+        speed: 300,
+        adaptiveHeight: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            }
+          },
+          {
+            breakpoint: 800,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+    });
 });
 
 
