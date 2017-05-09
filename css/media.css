@@ -1,3 +1,9 @@
-@media screen and(max-width: 1170px){
-
+@media screen and(max-width: 1220px){
+	.about_me-block{
+		display: block;
+		
+	}
+/*	main{
+		width: 100% !important;
+	}*/
 }
