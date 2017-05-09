@@ -206,6 +206,7 @@ h3{
 .dots{
     margin: 0 0 0 18px;
     padding: 0;
+    text-align: center;
 }
 .dot{
     display: inline-block;
@@ -349,19 +350,50 @@ h3{
 }
 
 /*subscribe to newsletter block named - rss*/
-/*.rss{*/
-    /*height: 100px;*/
-    /*width: 100%;*/
-    /*background-color: #f7f7f7;*/
-    /*margin: 0;*/
-/*}*/
-/*.rss-parent {*/
-    /*display: flex;*/
-    /*flex-wrap: nowrap;*/
-    /*justify-content: space-around;*/
-
-/*}*/
-
+.form-main{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: #f7f7f7;
+    padding: 28px 30px 28px 10px;
+}
+.form-main  h4{
+    font-size: 22px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #06192a;
+    padding: 0 0 0 0;
+}
+.form-main_box{
+    width: 23%;
+    display: inline-block;
+}
+.form-main_box input[type="text"],
+.form-main_box input[type="email"]{
+    border: 1px solid #f5f5f7;
+    text-transform: uppercase;
+    color: #999999;
+    background: #fff;
+    height: 48px;
+    padding: 0 0 0 30px;
+    width: 100%;
+    font-size: 15px;
+    margin: 0 0 15px 0;
+}
+.form-main_button input[type="submit"]{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #fff;
+    width: 280px;
+    height: 48px;
+    background: #212121;
+    margin: 0;
+    border: 2px solid #f4f4f4;
+    text-transform: uppercase;
+}
 .item {
     width: 360px;
     background-color: #ffffff;
@@ -856,16 +888,6 @@ h3{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /**about_me**/
 .about_me-block{
     display: flex;
@@ -887,54 +909,6 @@ aside{
     display: flex;
     justify-content: space-between;
 }
-.form-main{
-    /*margin-top: 290px;*/
-    margin-bottom: 60px;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    background: #f7f7f7;
-    padding: 28px 30px 28px 10px;
-}
-.form-main  h4{
-    font-size: 22px;
-    margin: 0;
-    text-transform: uppercase;
-    color: #06192a;
-    margin: 0;
-    padding: 0 0 0 0;
-}
-.form-main_box{
-    width: 23%;
-    display: inline-block;
-}
-.form-main_box input[type="text"], 
-.form-main_box input[type="email"]{
-    border: none;
-    border: 1px solid #f5f5f7;
-    text-transform: uppercase;
-    color: #999999;
-    background: #fff;
-    height: 48px;
-    padding: 0 0 0 30px;
-    width: 100%;
-    font-size: 15px;
-    margin: 0 0 15px 0;
-}
-.form-main_button input[type="submit"]{
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 2px;
-    font-weight: 500;
-    color: #fff;
-    width: 280px;
-    height: 48px;
-    background: #212121;
-    margin: 0;
-    border: 2px solid #f4f4f4;
-    text-transform: uppercase;
-}
-
 .slider-small{
     position: relative;
 }

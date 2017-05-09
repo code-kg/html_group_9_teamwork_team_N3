@@ -10,6 +10,9 @@
 	.header {
 	    height: 290px;
 	}
+	.slider {
+		margin-top: -235px;
+	}
 	.carousel-block img {
 	    width: 100%;
 	}
@@ -17,11 +20,10 @@
 		font-size: 34px;
 		letter-spacing: 0;
 	}
-	.controls{
-		right: 168px;
+	.controls {
+		right: 12px;
+		top: 7%;
 	}
-
-
 
 	main{
 		width: 100% !important;
@@ -29,7 +31,7 @@
 	.form-main {
 		margin-bottom: 10px;
 		padding: 28px 10px 28px 10px;
-	    margin-top: 65px;
+	    margin-top: 0;
 	}
 	.form-main_box {
 	    width: 27%;
@@ -43,7 +45,11 @@
 	.form-main_box input[type="email"] {
 	    padding: 0 0 0 20px;
 	}
-
+	.dots {
+		margin: 0 0 0 15px;
+		padding: 0;
+		text-align: center;
+	}
 	aside{
 		width: 100%;
 	}
