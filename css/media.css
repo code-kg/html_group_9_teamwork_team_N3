@@ -60,9 +60,9 @@
 	.sidebar, .contact-sidebar {
 		width: 100%;
 	}
-	/*.contact-sidebar {*/
-		/*display: none;*/
-	/*}*/
+	.main-contact {
+		width: 950px;
+	}
 	.author-pic img {
 		padding-left: 5px;
 	    padding-top: 30px;
