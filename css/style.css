@@ -989,6 +989,7 @@ aside{
 }
 .contact-page {
     margin-bottom: 130px;
+    width: 100%;
 }
 .main-contact {
     width: 1140px;
@@ -997,7 +998,7 @@ aside{
 .contact-block {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     margin-bottom: 30px;
 }
 .map {

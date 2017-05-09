@@ -96,6 +96,10 @@
 
 @media only screen and (max-width: 800px ){
 	.container{
+		margin: 0 auto;
+		width: 420px;
+	}
+	.main-contact {
 		width: 420px;
 	}
 	.header {
@@ -149,9 +153,11 @@
 	    line-height: 70px;
 	}
 	.sidebar {
-	    padding: 40px 30px 0px 30px;
+	    padding: 40px 30px 0 30px;
 	}
-	.slider,
+	.contact-sidebar{
+		display: none;
+	}
 	.slider-small{
 		display: none;
 	}
