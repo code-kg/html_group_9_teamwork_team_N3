@@ -1004,6 +1004,9 @@ aside{
 .map {
     width: 433px;
 }
+.map iframe{
+    width: 100%;
+}
 .map-contact{
     width: 706px;
     padding: 37px 30px 0;
@@ -1049,7 +1052,7 @@ aside{
     margin: 0 0 20px 0;
 }
 .form-block .form-block-name,.form-block-email{
-    width: 556px;
+    width: 49%;
 }
 .form-block .form-block-website {
     width: 100%;

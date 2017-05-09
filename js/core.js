@@ -78,13 +78,6 @@ function autoPlaySlide() {
     setTimeout(autoPlaySlide, 3000);
 }
 
-//hide/show menu
-$(document).ready(function(){
-    $('#menu-btn').click(function(){
-        $('.menu').slideToggle(700);
-    });
-});
-
 // carousel effect
 var slideNumber = 1;
 showSlide(slideNumber);
